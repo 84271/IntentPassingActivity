@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Intent Data Passing"
+        android:textSize="30sp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name(Double)"
+        android:textSize="25sp"
+        android:textStyle="bold"></TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:textSize="20sp"
+        android:id="@+id/etName"
+        android:textStyle="bold"></EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Age(Digit)"
+        android:textSize="25sp"
+        android:textStyle="bold"></TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Age"
+        android:textSize="20sp"
+        android:id="@+id/etAge"
+        android:textStyle="bold"></EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gender(char)"
+        android:textSize="25sp"
+        android:textStyle="bold"></TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="M or F"
+        android:textSize="20sp"
+        android:id="@+id/etGender"
+        android:textStyle="bold"></EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email(String)"
+        android:textSize="25sp"
+        android:textStyle="bold"></TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:textSize="20sp"
+        android:id="@+id/etMail"
+        android:textStyle="bold"></EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mobile Number(long)"
+        android:textSize="25sp"
+        android:textStyle="bold"></TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mobile Number"
+        android:textSize="20sp"
+        android:id="@+id/etNumber"
+        android:textStyle="bold"></EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salary(float)"
+        android:textSize="25sp"
+        android:textStyle="bold"></TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Salary"
+        android:textSize="20sp"
+        android:id="@+id/etSalary"
+        android:textStyle="bold"></EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Above information is corret(Boolean)"
+        android:textSize="25sp"
+        android:textStyle="bold"></TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="True or False"
+        android:textSize="20sp"
+        android:id="@+id/etInfo"
+        android:textStyle="bold"></EditText>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REGISTER"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:id="@+id/btnRegister"></Button>
+
+
+
+
+
+
+
+
+</LinearLayout>
